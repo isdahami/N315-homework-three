@@ -1,0 +1,189 @@
+.faq-wrapper {
+  min-height: 100%;
+  width: 100%;
+
+  .faq-header-container {
+    min-height: 500px;
+    width: 100%;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .faq-head-text-one {
+      min-height: 500px;
+      width: 50%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      border: 3px solid #000;
+      .head-txt-one {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        color: #0068b3;
+      }
+    }
+    .faq-head-text-two {
+      min-height: 500px;
+      width: 50%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      border: 3px solid #000;
+      .head-txt-two {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        color: #0068b3;
+      }
+    }
+  }
+  .faq-mid-container {
+    min-height: 100%;
+    width: 100%;
+    // margin-top: 50px;
+    border: 3px solid #000;
+
+    .faq-mid-header {
+      min-height: 100px;
+      width: 100%;
+      background-color: #0068b3;
+      .faq-head-txt {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        text-align: center;
+        padding: 30px;
+        color: #fff;
+        border-bottom: 2px solid #000;
+      }
+    }
+    .faq-bottom-container {
+      min-height: 50px;
+      width: 100%;
+      .faq-mid-question {
+        min-height: 50px;
+        width: 100%;
+        padding: 15px 5px;
+        background-color: #0068b3;
+
+        .faq-txt {
+          font-size: 25px;
+          color: #fff;
+          font-family: "Josefin Sans", sans-serif;
+        }
+      }
+      .faq-mid-answer {
+        min-height: 50px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+
+        .faq-txt-answer {
+          font-size: 20px;
+          font-style: italic;
+          padding: 20px 30px;
+          font-family: "Josefin Sans", sans-serif;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .faq-wrapper {
+    min-height: 100%;
+    width: 100%;
+
+    .faq-header-container {
+      min-height: 500px;
+      width: 100%;
+      // background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .faq-head-text-one {
+        min-height: 500px;
+        width: 50%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        border: 3px solid #000;
+        .head-txt-one {
+          font-size: 40px;
+          font-family: "Josefin Sans", sans-serif;
+          color: #0068b3;
+        }
+      }
+      .faq-head-text-two {
+        min-height: 500px;
+        width: 50%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        border: 3px solid #000;
+        .head-txt-two {
+          font-size: 40px;
+          font-family: "Josefin Sans", sans-serif;
+          color: #0068b3;
+        }
+      }
+    }
+    .faq-mid-container {
+      min-height: 100%;
+      width: 100%;
+      // margin-top: 50px;
+      border: 3px solid #000;
+
+      .faq-mid-header {
+        min-height: 100px;
+        width: 100%;
+        background-color: #0068b3;
+        .faq-head-txt {
+          font-size: 40px;
+          font-family: "Josefin Sans", sans-serif;
+          text-align: center;
+          padding: 30px;
+          color: #fff;
+          border-bottom: 2px solid #000;
+        }
+      }
+      .faq-bottom-container {
+        min-height: 50px;
+        width: 100%;
+        .faq-mid-question {
+          min-height: 50px;
+          width: 100%;
+          padding: 15px 5px;
+          background-color: #0068b3;
+
+          .faq-txt {
+            font-size: 25px;
+            color: #fff;
+            font-family: "Josefin Sans", sans-serif;
+          }
+        }
+        .faq-mid-answer {
+          min-height: 50px;
+          width: 100%;
+          margin: 0 auto;
+          background-color: #fff;
+
+          .faq-txt-answer {
+            font-size: 20px;
+            font-style: italic;
+            padding: 20px 30px;
+            font-family: "Josefin Sans", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
